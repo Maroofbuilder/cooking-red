@@ -1,0 +1,18 @@
+.menu-navi{ height: 60vh;   width: 95%;   box-sizing: border-box;   display: flex;  align-items: center;}
+.menu-navi .unique-menus{flex: 1.3;height: 75%;display: flex;gap: 25px;}
+.menu-navi .unique-menus .menu-card{height: 100%;width: 32%;display: flex;align-items: center;flex-direction: column;position: relative; gap: 5%; transition: all 400ms ease-in-out;}
+.menu-navi .unique-menus .menu-card:hover{transform: translateY(-15px) scale(1.08);}
+.menu-card .menu-img-box{width: 95%;height: 48%;position: relative;z-index: 3;}
+.menu-card .menu-img-box img{object-fit: contain; height: 100%;width: 100%;}
+.menu-card .menu-back{position: absolute;z-index: 2;top: 50%;width: 100%;height: 75%;background-color: rgba(241, 243, 242,0.35);border-radius: 30px;transform: translate(0,-45%);}
+.menu-card .card-btn{position: absolute;bottom: 0;right: 14%;height: 50px;width: 43px;padding: 0px 5px;background-color: #101017;color: white;border-radius: 15px 10px 55px 20px; display: flex;align-items: center;justify-content: center;font-size: 24px;cursor: pointer; z-index: 3;transition: all 400ms ease-in-out;}
+.menu-card .card-btn:hover{}
+.menu-card .card-btn .i{position: relative;left: -3%;top: -4%;}
+.menu-card .menu-texts{width: 75%;display: flex;flex-direction: column;position: relative;z-index: 3;gap: 3px;}
+.menu-card .menu-texts .first-text{width: 100%;display: flex;align-items: center;justify-content: space-between;font-size: 15px;font-weight: 600;letter-spacing: 1px;}
+.menu-card .menu-texts .second-text{font-size: 12px;font-weight: 500;letter-spacing: 1px;color: rgb(57, 57, 57);}
+.menu-card .menu-texts .third-text{font-size: 15px;font-weight: 600;letter-spacing: 1px;padding-top: 7px;}
+.menu-card .menu-texts .first-text .heart-box{display: flex;align-items: center;justify-content: center;height: 35px;width: 35px;border-radius: 50%;background-color: gray;font-size: 20px;cursor: pointer;}
+.menu-navi .menu-text{flex: 1; height: 45%;display: flex;flex-direction: column;justify-content: space-between;}
+.menu-navi .text-header{font-size: 33px;font-weight: 600;letter-spacing: 2px;}
+.menu-navi .text-description{font-size: 14px;color: rgb(36, 36, 36);}
